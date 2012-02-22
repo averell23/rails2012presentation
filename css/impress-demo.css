@@ -198,6 +198,10 @@ body     { pointer-events: none; }
     width: 1200px;
 }
 
+#itinary {
+    width: 1200px;
+}
+
 h1 {
     font-size: 120px;
     font-weight: bold;
