@@ -139,7 +139,7 @@
         And now?
     </div>
 
-    <div id="deepdive" class="step bullets" data-x="-3150" data-y="-4000" data-z="-1000" data-scale="0.1">
+    <div id="deepdive" class="step bullets wide" data-x="-3150" data-y="-4000" data-z="-1000" data-scale="0.1">
         <h1>Deep dive into it!</h1>
         <ul>
             <li>Resolve all the installation problems</li>
@@ -150,7 +150,7 @@
         </ul>
     </div>
 
-    <div id="itinary" class="step bullets" data-x="-3000" data-y="-4000" data-z="-1000" data-scale="0.1">
+    <div id="itinary" class="step bullets wide" data-x="-3000" data-y="-4000" data-z="-1000" data-scale="0.1">
         <b>We'll cover stuff while we code</b>
         <ul>
             <li>Basic Ruby Structures</li>
@@ -162,6 +162,84 @@
             <li>REST and Routing</li>
             <li>Helpers</li>
             <li>View Templates</li>
+        </ul>
+    </div>
+
+    <div id="cheat-rails" class="step wide cheat" data-x="-3000" data-y="-3000" data-z="-500" data-rotate-y="45" data-rotate-x="45" data-scale="0.5">
+        <h1>Rails Cheats</h1>
+        <ul>
+            <li>
+                <span class="command">rails new &lt;app_name&gt;</span> <span class="description">Creates a new Rails app</span>
+            </li>
+            <li>
+                <span class="command">bundle install</span> <span class="description">Installs dependencies</span>
+            </li>
+            <li>
+                <span class="command">rails server</span> <span class="description">Starts the development server</span>
+            </li>
+            <li>
+                <span class="command">rails console</span> <span class="description">Fires up the rails console</span>
+            </li>
+        </ul>
+    </div>
+
+    <div id="cheat-model" class="step wide cheat" data-x="-2500" data-y="-2500" data-z="-500" data-rotate-y="90" data-rotate-x="45" data-scale="0.5">
+        <h1>Model Cheats</h1>
+        <ul>
+            <li>
+                <span class="command">rails generate model &lt;foo&gt;</span> <span class="description">Generates Model and Migration</span>
+            </li>
+            <li>
+                <span class="command">rake db:migrate</span> <span class="description">Runs the pending db migrations</span>
+            </li>
+            <li>
+                <span class="command">rake db:migrate:redo</span> <span class="description">Reruns the last migration</span>
+            </li>
+            <li>
+                <span class="command">Foo.find(id)</span> <span class="description">Finds the record with that id</span>
+            </li>
+            <li>
+                <span class="command">Foo.new(params)</span> <span class="description">Creates a new record</span>
+            </li>
+            <li>
+                <span class="command">foo.save</span> <span class="description">Saves a record</span>
+            </li>
+            <li>
+                <span class="command">foo.update_attributes(params)</span> <span class="description">Updates a record</span>
+            </li>
+        </ul>
+    </div>
+
+    <div id="cheat-controller" class="step wide cheat" data-x="-2000" data-y="-2000" data-z="-500" data-rotate-y="135" data-rotate-x="45" data-scale="0.5">
+        <h1>Controller Cheats</h1>
+        <ul>
+            <li>
+                <span class="command">rails generate controller &lt;foos&gt;</span> <span class="description">Generates the controller</span>
+            </li>
+            <li>
+                <span class="command">@controller_var = some</span> <span class="description">Variable for controller and views</span>
+            </li>
+            <li>
+                <span class="command">render :text => "Some"</span> <span class="description">Renders text directly to the page</span>
+            </li>
+            <li>
+                <span class="command">redirect_to some_url</span> <span class="description">Redirects to another page</span>
+            </li>
+        </ul>
+    </div>
+
+    <div id="cheat-view" class="step wide cheat" data-x="-1500" data-y="-1500" data-z="-500" data-rotate-y="180" data-rotate-x="45" data-scale="0.5">
+        <h1>View Cheats</h1>
+        <ul>
+            <li>
+                <span class="command">&lt;% ruby_code %&gt;</span> <span class="description">Ruby code in a template</span>
+            </li>
+            <li>
+                <span class="command">&lt;%= ruby_code %&gt</span> <span class="description">Puts the result of ruby_code into the page</span>
+            </li>
+            <li>
+                <span class="command">form_for(@foo)</span> <span class="description">Creates a form for a model object</span>
+            </li>
         </ul>
     </div>
 

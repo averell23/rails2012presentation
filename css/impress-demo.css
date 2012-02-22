@@ -194,13 +194,22 @@ body     { pointer-events: none; }
     text-align: center;
 }
 
-#deepdive {
+span.command {
+    font-family: "Courier New", Courier, monospace;
+}
+
+span.description {
+    float: right;
+}
+
+.wide {
     width: 1200px;
 }
 
-#itinary {
-    width: 1200px;
+.cheat {
+    font-size: 40px;
 }
+
 
 h1 {
     font-size: 120px;
